@@ -1,0 +1,60 @@
+﻿body {
+    background-image:url(/Images/Wallpapers/sunset.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+div#nav {
+    background-color: cadetblue;
+    padding:4px;
+}
+div ul li {
+    color: black;
+    font-weight: bold;
+    text-indent: 50px;
+    float: left;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color:black;
+}
+.jumbotron {
+    background-color: #fcfcfc7f
+}
+
+/*Dropdown list*/
+.jumbotron .navbar-inverse ul li a:hover{
+    background-color:grey;
+}
+.navbar-inverse {
+    float: right;
+    border-radius:4px;
+    background-color: #5f9ea0d9;
+}
+.jumbotron ul ul{
+    display:none;
+}
+li{
+    position:relative;
+}
+li:hover > ul{
+    display:table;
+}
+.content {
+    background-color: #89b0b1d9;
+    padding:10px;
+    border-radius:8px;
+}
+/*Footer*/
+footer.footer{
+    justify-content:center;
+    display:flex;
+    color:#8a8a8a;
+}
+.Icons a {
+    margin: 10px;
+    text-decoration: none;
+    color: #703694;
+}
+.Icons a:hover >svg{
+    transform:translate(0px,-10px);/*move 0px right and 10px up*/
+    transition:200ms ease-in-out;
+}
