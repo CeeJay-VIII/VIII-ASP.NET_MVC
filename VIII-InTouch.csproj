@@ -138,8 +138,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\Admins\Author.jpg" />
     <Content Include="Images\Admins\Default.png" />
-    <Content Include="Images\Other\MBoutique.png" />
     <Content Include="Images\Other\VIII.png" />
+    <Content Include="Images\Wallpapers\neonblack.jpg" />
     <Content Include="Images\Wallpapers\sunset.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
